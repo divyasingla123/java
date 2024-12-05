@@ -7,7 +7,7 @@ public class first {
     public static void main(String[] args) {
         System.out.print("enter a number:");
         Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
+        int num=sc.nextInt(); 
         System.out.println(num);
         int sum=add(num,3);
         System.out.println("sum is "+sum);
