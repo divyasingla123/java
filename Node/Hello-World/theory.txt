@@ -1,0 +1,30 @@
+npm init -y  -->to initialise and view name and all details
+to install express-->npm i express
+to install nodemon-->npm i nodemon
+nodemon se direct changes hojaege vrna phle close krke fir open krna pdta tha
+
+crud-create,read,update,delete
+request methods-->get,post,put,delete
+get- readonly
+post- jb send krna hota hai
+put- update krna hai(new data restore)
+patch- update krna hai(just update the old)
+delete- delete krna hai
+
+status code:
+1xx- information
+2xx- success
+3xx- redirection
+4xx- client error
+5xx- server error
+
+diff btwn js and json??
+json mein key value pair inverted commas mei hote hai
+
+json and javascript object are not same
+in json key data type is string 
+but in java it is not string 
+to convert javascript code in json we use json.stringify
+to convert json to javascript object we use json.parse
+
+app.use(express.json())  // to parse json data

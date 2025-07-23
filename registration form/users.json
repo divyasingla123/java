@@ -1,0 +1,13 @@
+[
+  {
+    "firstname": "divya",
+    "lastname": "user",
+    "password": "password",
+    "mobile": "xxxxx xxxxx",
+    "gender": "Female",
+    "birthdate": "2024-12-24",
+    "address": "dvfs",
+    "country": "India",
+    "pincode": "123456"
+  }
+]
