@@ -1,12 +1,16 @@
-const express=require('express');
-const chalk=require('chalk');
-const app=express();
-const port=3000;
-const path=require('path');
-app.set('view engine', 'ejs');
-app.set("view",this.path.join(__dirname,"views"));
-app.get("/home/:name",(req,res)=>{
-    const name=req.params.name;
-    res.render("6_index",{name:name});
+const express = require("express");
+const app = express();
+const port = 4004;
+const ejs = require("ejs");
+
+app.set("view engine", "ejs");
+
+app.use(express.static("public"));
+// 
+app.listen(port,()=>{
+    console.log(`Server is running on port ${port}`);
 })
-module.exports=app;
+
+app.get("/", (req,res)=>{
+    res.render("home");
+})
